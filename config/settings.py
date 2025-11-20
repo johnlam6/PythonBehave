@@ -1,0 +1,1 @@
+BASE_URL = "https://api.crypto.com/exchange/v1"
