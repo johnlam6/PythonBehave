@@ -1,7 +1,6 @@
 import requests
 from behave import given, when, then
 from utils.api_helpers import get_candlestick_data
-from utils.data_loader import load_json
 import os
 import json
 
