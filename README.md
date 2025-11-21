@@ -65,7 +65,7 @@ cd your-repo-name
 ### 2. Set Up the Environment
 ```bash
 python -m venv .venv
-.venv\Scripts\activate # Windows
+.\.venv\Scripts\activate # Windows
 ```
 
 ### 3. Install Dependencies
