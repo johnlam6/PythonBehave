@@ -89,8 +89,8 @@ behave features/book_subscription.feature
 ### 5. Generating HTML Report
 
 ```bash
- behave .\features\get_candlestick.feature -f behave_html_pretty_formatter:PrettyHTMLFormatter -o .\reports\get_candiestick_report.html
-  behave .\features\book_subscription.feature -f behave_html_pretty_formatter:PrettyHTMLFormatter -o .\reports\book_subscription.feature_report.html
+behave .\features\get_candlestick.feature -f behave_html_pretty_formatter:PrettyHTMLFormatter -o .\reports\get_candiestick_report.html
+behave .\features\book_subscription.feature -f behave_html_pretty_formatter:PrettyHTMLFormatter -o .\reports\book_subscription.feature_report.html
  ```
 
 ### 6. Checking Test log
