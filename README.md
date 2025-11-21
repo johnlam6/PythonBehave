@@ -65,7 +65,7 @@ cd your-repo-name
 ### 2. Set Up the Environment
 ```bash
 python -m venv .venv
-.venv\Scripts\activate # Windows
+.\.venv\Scripts\activate # Windows
 ```
 
 ### 3. Install Dependencies
@@ -75,7 +75,13 @@ pip install -r requirements.txt
 
 ### 4. Running Tests
 ```bash
+#Run all the test scenarios
+behave
+
+#Run get candlestick
 behave features/get_candlestick.feature
+
+#Run Websocket subscription for book
 behave features/book_subscription.feature
 ```
 
