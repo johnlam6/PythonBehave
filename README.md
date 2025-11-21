@@ -27,7 +27,7 @@ The project includes:
 - `json`
 
 ## Project Structure
-yaml
+
 PythonBehave/
 │
 ├── features/
