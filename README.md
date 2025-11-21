@@ -27,7 +27,7 @@ The project includes:
 - `json`
 
 ## Project Structure
-
+```mipsasm
 PythonBehave/
 │
 ├── features/
@@ -52,6 +52,7 @@ PythonBehave/
 ├── behave.ini
 ├── requirements.txt
 └── README.md
+```
 
 ##  How to Run the Project
 
