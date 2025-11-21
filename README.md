@@ -1,6 +1,6 @@
 # Candlestick Data API & WebSocket Assessment
 
-This repository contains an assessment project completed as part of the application process at [Company Name].  
+This repository contains an assessment project completed as part of the application process.  
 It demonstrates retrieving candlestick data using the **Crypto.com Exchange REST API** and subscribing to real-time updates using **WebSocket**.
 
 ---
