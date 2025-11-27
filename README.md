@@ -74,7 +74,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-### 4. Running Tests
+### 4. Run Tests
 ```bash
 #Run all the test scenarios
 behave
@@ -86,7 +86,7 @@ behave features/get_candlestick.feature
 behave features/book_subscription.feature
 ```
 
-### 5. Generating HTML Report
+### 5. Generate HTML Report
 
 ```bash
 behave .\features\get_candlestick.feature -f behave_html_pretty_formatter:PrettyHTMLFormatter -o .\reports\get_candiestick_report.html
