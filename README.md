@@ -93,7 +93,7 @@ behave .\features\get_candlestick.feature -f behave_html_pretty_formatter:Pretty
 behave .\features\book_subscription.feature -f behave_html_pretty_formatter:PrettyHTMLFormatter -o .\reports\book_subscription.feature_report.html
  ```
 
-### 6. Checking Test log
+### 6. Check Test log
 
 ```
 Open /PythonProject/Logs/test_log.txt
